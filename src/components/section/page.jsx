@@ -5,7 +5,7 @@ import Accordion from "./sectionTwo"
 export default function SectionTwo (){
     return(
         <>
-        <div className="flex justify-center text-center items-center rounded-xl bg-slate-100 w-96 xl:h-11 xl:w-auto 2xl:h-20">
+        <div id="sectionTwo" className="flex justify-center text-center items-center rounded-xl bg-slate-100 w-96 xl:h-11 xl:w-auto 2xl:h-20">
             <p className="text-black text-center text-base xl:text-base 2xl:text-xl justify-center">Fique por dentro do calendário de cursos, palestas e eventos da EMPETUR. </p>
         </div>
         <section className="bg-gray-2 justify-center  pb-5 pt-20 dark:bg-dark lg:pb-15 2xl:pt-[80px] xl:pt-[50px]">

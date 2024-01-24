@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
   return (
   
     <html className='!scroll-smooth' lang="pt-BR">
-      <body className={`${poppins.className} !scroll-smooth scrollbar-x-hidden scrollbar-thin scrollbar-track-slate-400 scrollbar-thumb-slate-500  bg-gradient-to-b from-blue-700 via-purple-400 to-blue-400 `}> 
+      <body className={`${poppins.className} !scroll-smooth scrollbar-x-hidden scrollbar-thin scrollbar-track-slate-400 scrollbar-thumb-slate-500  bg-gradient-to-b from-blue-700 via-purple-300 to-blue-400 `}> 
         <div className="flex flex-wrap min-h-screen items-center justify-between  xl:max-w-4xl 2xl:max-w-7xl mx-auto ">
           <header className="flex justify-between p-5 mb-5 xl:mb-0 w-full sm:flex sm:justify-between sm:items-center  py-6 xl:py-7 2xl:py-10 ">
             <a  href="/">
