@@ -52,10 +52,10 @@ function Slide() {
   }, [currentIndex]);
 
   return (
-    <div className='max-w-[1200px] h-[480px] w-full  m-auto py-6  relative group'>
+    <div className='max-w-[1220px] h-[480px] 2xl:h-[490px] xl:h-[360px] w-full  m-auto py-5 px-2 xl:px-0 2xl:px-0 relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full  rounded-2xl bg-center bg-cover object-cover  bg-no-repeat duration-300'
+        className='w-full h-full shadow-lg shadow-stone-800/50 px-4 rounded-2xl bg-center bg-cover object-cover  bg-no-repeat duration-300'
       ></div>
       {/* Left Arrow */}
       <div className='hidden  group-hover:block absolute top-[50%] -translate-x-1 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>

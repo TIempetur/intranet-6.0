@@ -8,6 +8,11 @@ export const metadata= {
 
 export default function saibaMais (){
     return (
-        <PhotoGalary/>
+        <>
+        <div className="flex justify-center items-center w-full h-1/2">
+
+        <p className="flex justify-center text-center items-center ">Avaible soon</p>
+        </div>
+        </>
     )
 }

@@ -30,8 +30,8 @@ export default function PhotoGalary () {
                     onClick={() => handleProject("all")}
                     className={`inline-block rounded-lg py-2 px-5 text-center  text-base font-semibold transition md:py-3 lg:px-8 ${
                       showCard === "all"
-                        ? "activeClasses bg-white text-blue-900"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-white hover:text-blue-900"
+                        ? "activeClasses bg-white bg-opacity-80 text-blue-900"
+                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-white hover:bg-opacity-80 hover:text-blue-900"
                     }`}
                   >
                     Todos
@@ -42,8 +42,8 @@ export default function PhotoGalary () {
                     onClick={() => handleProject("cursos")}
                     className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                       showCard === "cursos"
-                        ? "activeClasses bg-white text-blue-900"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-white hover:text-blue-900"
+                        ? "activeClasses bg-white bg-opacity-80 text-blue-900"
+                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-white hover:bg-opacity-80 hover:text-blue-900"
                     }`}
                   >
                     Cursos
@@ -54,8 +54,8 @@ export default function PhotoGalary () {
                     onClick={() => handleProject("palestras")}
                     className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                       showCard === "palestras"
-                        ? "activeClasses bg-white text-blue-900"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-white hover:text-blue-900"
+                        ? "activeClasses bg-white bg-opacity-80 text-blue-900"
+                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-white hover:bg-opacity-80 hover:text-blue-900"
                     }`}
                   >
                     Palestras
@@ -66,8 +66,8 @@ export default function PhotoGalary () {
                     onClick={() => handleProject("eventos")}
                     className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                       showCard === "eventos"
-                        ? "activeClasses bg-white text-blue-900"
-                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-white hover:text-blue-900"
+                        ? "activeClasses bg-white bg-opacity-80 text-blue-900"
+                        : "inactiveClasses text-body-color dark:text-dark-6 hover:bg-white hover:bg-opacity-80 hover:text-blue-900"
                     }`}
                   >
                     Eventos

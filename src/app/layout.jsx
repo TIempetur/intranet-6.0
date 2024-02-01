@@ -23,15 +23,15 @@ const links = [
   { href: '/contato', label: 'Contato' },
   { href: '/galeria', label: 'Galeria' },
 ];
-
+const buttonStyle = "capitalize inline-block  relative cursor-pointer transition-all duration-200 before:content-[''] before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-1.5 before:rounded-full before:opacity-0 before:transition-all before:duration-200 before:bg-gradient-to-r before:from-orange-600 before:via-orange-600 before:to-orange-500 hover:before:w-full hover:before:opacity-100"
 export default function RootLayout({ children }) {
 
   return (
   
     <html className='!scroll-smooth' lang="pt-BR">
-      <body className={`${poppins.className} !scroll-smooth scrollbar-x-hidden scrollbar-thin scrollbar-track-slate-400 scrollbar-thumb-slate-500  bg-gradient-to-b from-blue-700 via-purple-300 to-blue-400 `}> 
+      <body className={`${poppins.className} !scroll-smooth scrollbar-x-hidden scrollbar-thin scrollbar-track-slate-400 scrollbar-thumb-slate-500  bg-gradient-to-b from-blue-700 via-green-200 to-blue-400 `}> 
         <div className="flex flex-wrap min-h-screen items-center justify-between  xl:max-w-4xl 2xl:max-w-7xl mx-auto ">
-          <header className="flex justify-between p-5 mb-5 xl:mb-0 w-full sm:flex sm:justify-between sm:items-center  py-6 xl:py-7 2xl:py-10 ">
+          <header className="flex justify-between p-5 xl:px-0 2xl:px-0 mb-5 xl:mb-0 w-full sm:flex sm:justify-between sm:items-center  py-6 xl:py-7 2xl:py-10 ">
             <a  href="/">
             <span className="text-4xl xl:text-3xl 2xl:text-5xl text-slate-50 cursor-pointer font-black tracking-wider">EMPETUR</span>
             </a>
@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
             {/* Fim do componente do menu hamburguer */}
             <nav className='hidden xl:flex xl:justify-between  text-slate-50  xl:gap-4 2xl:gap-8 text-xs xl:text-base 2xl:text-xl'>
               {links.map((link) => (
-                <Link key={link.href} className='hover:underline hover:decoration-white' href={link.href}>
+                <Link key={link.href} className={buttonStyle} href={link.href}>
                   {link.label}
                 </Link>
               ))}
