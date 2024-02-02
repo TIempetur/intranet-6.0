@@ -7,7 +7,7 @@ function Slide() {
   const slides = [
     { 
       
-      url:  '/midia/wallpaper-05.JPG',
+      url:  '/midia/dia-do-turismologo.jpg',
     },
     {
       url: '/midia/wallpaper-01.jpg',
@@ -16,7 +16,7 @@ function Slide() {
       url: '/midia/wallpaper-02.jpg',
     },
     {
-      url: '/midia/wallpape-03.jpg',
+      url: '/midia/show_img.jpg',
     },
     {
       url: '/midia/wallpaper-04.jpg',
@@ -52,10 +52,10 @@ function Slide() {
   }, [currentIndex]);
 
   return (
-    <div className='max-w-[1220px] h-[480px] 2xl:h-[490px] xl:h-[360px] w-full  m-auto py-5 px-4 xl:px-0 2xl:px-0 relative group'>
+    <div className='max-w-[1220px] h-[480px] 2xl:h-[490px] xl:h-[340px] w-full  m-auto py-5 px-4 xl:px-0 2xl:px-0 relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full shadow-lg shadow-stone-800/50 px-4 rounded-2xl bg-center bg-cover object-cover  bg-no-repeat duration-300'
+        className='w-full h-full shadow-lg shadow-stone-800/50 px-4 rounded-2xl bg-center bg-cover  object-cover  bg-no-repeat duration-300'
       ></div>
       {/* Left Arrow */}
       <div className='hidden  group-hover:block absolute top-[50%] -translate-x-1 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>

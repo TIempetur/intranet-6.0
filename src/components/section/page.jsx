@@ -66,11 +66,11 @@ const SingleCard = ({
       <>
         {/*  */}
         <div className="mb-10 mx-4 xl:mx-0 2xl:mx-0 overflow-hidden rounded-lg bg-slate-100  shadow-1 duration-300 hover:shadow-3 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3">
-          <img src={image} alt="card-photo" className="w-full h-48 xl:h-44 2xl:h-80 bg-gradient-to-t from-slate-300 to-gray-200  " />
+          <img src={image} alt="card-photo" className="w-full h-48 xl:h-52 2xl:h-80 bg-gradient-to-t from-slate-300 to-gray-200  " />
           <div className="p-8 text-center sm:p-9 md:p-7 xl:p-5 2xl:p-9">
             <h3>
               <a target="_blank"
-                href={titleHref ? titleHref : "/#"}
+                
                 className="mb-2 block text-xl font-semibold text-dark hover:text-primary dark:text-gray-900 sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
               >
                 {CardTitle}

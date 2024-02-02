@@ -12,10 +12,10 @@ export default function About() {
     const h1 = "2xl:mt-10 flex justify-center xl:ml-2 sm:flex sm:justify-start mb-6 text-xl sm:4xl font-bold"
     const h2 = "mt-8 mb-4 text-xl font-bold"
     const p = "mt-5 mb-2 text-xs xl:text-xs 2xl:text-base"
-    const li = "text-xs sm:text-base"
+    const li = "text-xs xl:text-xs 2xl:text-base sm:text-base"
   
     return (
-      <main >
+      <main className="pb-10" >
         <h1 className={h1}>EMPRESA DE TURISMO DE PERNAMBUCO</h1>
         <div className="w-full bg-gray-100 p-2 rounded-md">
         <h2 className={h2}>O que é a EMPETUR?</h2>

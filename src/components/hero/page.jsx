@@ -2,9 +2,9 @@ import Image from "next/image"
 import Slide from "./slide"
 
 export default function Hero (){
-  const linkSei = "flex justify-center items-center  w-72 h-64 xl:w-40 xl:h-36  2xl:w-60 2xl:h-52 2xl:ml-2 transition ease-in-out delay-150 hover:-translate-y-1   hover:scale-105 hover:bg-gray-50 duration-150  bg-zinc-200  shadow-lg shadow-stone-800/50  rounded-3xl "
-  const linkHelpDesk = "flex justify-center items-center  w-72 h-64 xl:w-40 xl:h-36 2xl:w-56 2xl:h-52 transition ease-in-out delay-150 hover:-translate-y-1  hover:scale-105 hover:bg-gray-50 duration-150 bg-zinc-200 shadow-lg shadow-stone-800/50  rounded-3xl"
-  const linkExpresso = "flex justify-center items-center  w-72 h-64 xl:w-40 xl:h-36 2xl:w-60 2xl:h-52 transition ease-in-out delay-150 hover:-translate-y-1  hover:scale-105 hover:bg-gray-50 duration-150 bg-zinc-200 shadow-lg shadow-stone-800/50 rounded-3xl"
+  const linkSei = "flex justify-center items-center  w-72 h-64 xl:w-40 xl:h-32  2xl:w-60 2xl:h-52 2xl:ml-2 xl:ml-2 transition ease-in-out delay-150 hover:-translate-y-1   hover:scale-105 hover:bg-gray-50 duration-150  bg-zinc-200  shadow-lg shadow-stone-800/50  rounded-3xl "
+  const linkHelpDesk = "flex justify-center items-center  w-72 h-64 xl:w-40 xl:h-32 2xl:w-56 2xl:h-52 transition ease-in-out delay-150 hover:-translate-y-1  hover:scale-105 hover:bg-gray-50 duration-150 bg-zinc-200 shadow-lg shadow-stone-800/50  rounded-3xl"
+  const linkExpresso = "flex justify-center items-center  w-72 h-64 xl:w-40 xl:h-32 2xl:w-60 2xl:h-52 transition ease-in-out delay-150 hover:-translate-y-1  hover:scale-105 hover:bg-gray-50 duration-150 bg-zinc-200 shadow-lg shadow-stone-800/50 rounded-3xl"
     return (
         <>
         <section className="flex flex-wrap justify-center sm:flex sm:justify-center sm:items-center items-center pt-15   md:grid-cols-1 sm:gap-4 xl:pt-[05px] 2xl:pt-[30px]   2xl:pb-[50px] xl:pb-[20px]  dark:bg-dark">
@@ -15,7 +15,7 @@ export default function Hero (){
                 <div className="flex justify-center flex-wrap lg:flex lg:justify-center lg:items-center space-x-3">
                     <div  className="flex flex-wrap justify-center md:flex lg:justify-center items-center gap-4 xl:gap-4 2xl:gap-4 ">
                 <a className={linkSei} href="https://sei.pe.gov.br" target="_blank" rel="noopener noreferrer"><Image src="/midia/logo_svg_sei.svg" width={260} height={0} className="xl:w-36 2xl:w-52" alt="SEI"/></a>
-                <a className={linkHelpDesk} href="http://192.168.8.2/glpi/" target="_blank" rel="noopener noreferrer"><Image src="/midia/help-desk-svg.svg" width={240} height={0} className="xl:w-32 2xl:w-48"  alt="HelpDesk"/></a>
+                <a className={linkHelpDesk} href="http://192.168.8.2/glpi/" target="_blank" rel="noopener noreferrer"><Image src="/midia/help-desk-svg.svg" width={240} height={0} className="xl:w-28 2xl:w-48"  alt="HelpDesk"/></a>
                 <a className={linkExpresso} href="https://www.expresso.pe.gov.br/login.php" target="_blank" rel="noopener noreferrer"><Image src="/midia/logo_svg_expresso.svg" width={280} height={0} className="xl:w-36 2xl:w-52"  alt="Expresso"/></a>
                     </div>
                     <Slide/>

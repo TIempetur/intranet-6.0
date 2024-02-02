@@ -14,7 +14,7 @@ const Accordion = () => {
        })
  }, [])
   return (
-    <section className="relative z-20 overflow-hidden  text-white pb-12 pt-2 dark:bg-dark lg:pb-[90px] lg:pt-[5px]">
+    <section className="relative z-20 overflow-hidden  text-white pb-12 pt-2 dark:bg-dark xl:pb-0 2xl:pb-[90px] 2xl:pt-[5px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -22,7 +22,7 @@ const Accordion = () => {
               <span className="mb-2 block text-lg font-semibold text-primary">
                 
               </span>
-              <h2 data-aos="fade-up" className="mb-4 text-xl xl:text-2xl 2xl:text-4xl font-bold text-dark dark:text-gray-900  sm:text-[40px]/[48px]">
+              <h2 data-aos="fade-up" className="mb-4 text-xl xl:text-2xl 2xl:text-4xl font-bold text-gray-900  sm:text-[40px]/[48px]">
                 Portarias e formulários
               </h2>
               <p className="text-base  text-body-color dark:text-dark-6">
