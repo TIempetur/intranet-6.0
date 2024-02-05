@@ -15,12 +15,6 @@ function Slide() {
     {
       url: 'http://192.168.9.16/midia-intranet/informatica/slideshow/slide3.jpg',
     },
-    {
-      url: 'http://192.168.9.16/midia-intranet/informatica/slideshow/slide4.jpg',
-    },
-    {
-      url: 'http://192.168.9.16/midia-intranet/informatica/slideshow/slide5.jpg',
-    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
