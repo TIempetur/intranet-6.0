@@ -1,11 +1,20 @@
 "use client"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import React, { useState } from "react";
 
 
 
 const Accordion = () => {
+  useEffect(() => {
+    AOS.init({
+         duration: 600,
+         once: false,
+       })
+ }, [])
   return (
-    <section className="relative z-20 overflow-hidden  text-white pb-12 pt-2 dark:bg-dark lg:pb-[90px] lg:pt-[5px]">
+    <section className="relative z-20 overflow-hidden  text-white pb-12 pt-2 dark:bg-dark xl:pb-0 2xl:pb-[90px] 2xl:pt-[5px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -13,8 +22,8 @@ const Accordion = () => {
               <span className="mb-2 block text-lg font-semibold text-primary">
                 
               </span>
-              <h2 className="mb-4 text-xl xl:text-2xl 2xl:text-4xl font-bold text-dark dark:text-white  sm:text-[40px]/[48px]">
-                Portarias e formulários.
+              <h2 data-aos="fade-up" className="mb-4 text-xl xl:text-2xl 2xl:text-4xl font-bold text-gray-900  sm:text-[40px]/[48px]">
+                Portarias e formulários
               </h2>
               <p className="text-base  text-body-color dark:text-dark-6">
               </p>
@@ -22,7 +31,7 @@ const Accordion = () => {
           </div>
         </div>
 
-        <div className="-mx-4 flex flex-wrap">
+        <div data-aos="fade-up" className="-mx-4 flex flex-wrap">
           <div className="w-full mx-4 xl:mx-0 2xl:mx-0 px-4 lg:w-1/2">
             <AccordionItem
               header="Portaria de Lotação"
@@ -97,7 +106,7 @@ const AccordionItem = ({ header, text,linkOne,linkTwo,linkThree,linkFour,linkFiv
   };
   return (
     <>
-    <div className="mb-8 w-full  rounded-lg bg-slate-100 p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] xl:p-4 2xl:p-8 lg:px-6 xl:px-8">
+    <div className="mb-8 w-full  rounded-lg bg-slate-100  p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] xl:p-4 2xl:p-8 lg:px-6 xl:px-8">
       <button
         className={`flex justify-center items-center w-full text-left`}
         onClick={() => handleToggle()}
@@ -121,7 +130,7 @@ const AccordionItem = ({ header, text,linkOne,linkTwo,linkThree,linkFour,linkFiv
         </div>
 
         <div className="w-full">
-          <h4 className="mt-1 text-lg xl:text-sm 2xl:text-lg font-semibold text-slate-950">
+          <h4 className="mt-1 text-lg xl:text-sm 2xl:text-lg font-semibold text-gray-900">
             {header}
           </h4>
         </div>
@@ -197,7 +206,7 @@ const AccordingMonth = ({ header, text,jan, fev,march,april,may,jun,jul,ago,set,
         </div>
 
         <div className="w-full">
-          <h4 className="mt-1 text-lg xl:text-sm 2xl:text-lg font-semibold text-slate-950">
+          <h4 className="mt-1 text-lg xl:text-sm 2xl:text-lg font-semibold text-gray-900">
             {header}
           </h4>
         </div>

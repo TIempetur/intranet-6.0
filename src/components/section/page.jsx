@@ -1,15 +1,25 @@
 "use client"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import Accordion from "./sectionTwo"
 
 
 export default function SectionTwo (){
+  useEffect(() => {
+    AOS.init({
+         duration: 600,
+         once: false,
+       })
+ }, [])
     return(
         <>
-        <div id="sectionTwo" className="flex justify-center text-center items-center rounded-xl bg-slate-100 w-96 xl:h-11 xl:w-auto 2xl:h-20">
-            <p className="text-black text-center text-base xl:text-base 2xl:text-xl justify-center">Fique por dentro do calendário de cursos, palestas e eventos da EMPETUR. </p>
+        <div id="sectionTwo" className="pb-4"> </div>
+        <div data-aos="flip-right" className="flex justify-center px-4  text-center items-center rounded-2xl bg-white/80 z-10 backdrop-filter backdrop-blur-lg shadow-lg w-96 xl:h-11 xl:w-auto 2xl:h-20">
+            <p className="text-gray-900   text-center text-base xl:text-base 2xl:text-xl justify-center">Fique por dentro do calendário de cursos, palestas e eventos da EMPETUR. </p>
         </div>
         <section className="bg-gray-2 justify-center  pb-5 pt-20 dark:bg-dark lg:pb-15 2xl:pt-[80px] xl:pt-[50px]">
-        <div className="container">
+        <div data-aos="fade-up" className="container">
           <div className="grid   gap-8 grid-cols-1 xl:grid-cols-3 ">
             <SingleCard
               image="/midia/calendar.svg"
@@ -55,25 +65,25 @@ const SingleCard = ({
     return (
       <>
         {/*  */}
-        <div className="mb-10 mx-4 xl:mx-0 2xl:mx-0 overflow-hidden rounded-lg bg-slate-100 shadow-1 duration-300 hover:shadow-3 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3">
-          <img src={image} alt="card-photo" className="w-full h-40 xl:h-44 2xl:h-80 bg-gradient-to-r from-blue-200 to-purple-300" />
+        <div className="mb-10 mx-4 xl:mx-0 2xl:mx-0 overflow-hidden rounded-lg bg-slate-100  shadow-1 duration-300 hover:shadow-3 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3">
+          <img src={image} alt="card-photo" className="w-full h-48 xl:h-52 2xl:h-80 bg-gradient-to-t from-slate-300 to-gray-200  " />
           <div className="p-8 text-center sm:p-9 md:p-7 xl:p-5 2xl:p-9">
             <h3>
               <a target="_blank"
-                href={titleHref ? titleHref : "/#"}
-                className="mb-2 block text-xl font-semibold text-dark hover:text-primary dark:text-black sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                
+                className="mb-2 block text-xl font-semibold text-dark hover:text-primary dark:text-gray-900 sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
               >
                 {CardTitle}
               </a>
             </h3>
-            <p className="mb-6 2xl:mb-8 text-base xl:text-sm 2xl:text-lg leading-relaxed text-body-color dark:text-dark-6">
+            <p className="mb-6 2xl:mb-8 text-base xl:text-xs 2xl:text-lg leading-relaxed text-body-color dark:text-dark-6">
               {CardDescription}
             </p>
   
             {Button && (
               <a target="_blank"
                 href={btnHref ? btnHref : "#"}
-                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg  transform transition-all duration-300  ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce "
+                className="bg-gradient-to-t from-orange-400 to-orange-500 hover:from-orange-600 hover:to-blue-800 text-slate-800 font-bold xl:text-xs 2xl:text-base py-2 px-4  xl:py-2 xl:px-4  2xl:py-3 2xl:px-6 rounded-lg shadow-lg hover:text-white  transform transition-all duration-300  ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce "
               >
                 {Button}
               </a>

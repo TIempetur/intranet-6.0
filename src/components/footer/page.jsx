@@ -2,7 +2,7 @@ export default function Footer () {
   return (
     <>
     <hr />
-      <footer className="flex flex-wrap justify-center items-center pt-5 sm:ml-40 sm:w-5/6  2xl:pb-5 sm:pt-10  md:pt-[20px]">
+      <footer className="flex flex-wrap justify-center items-center pt-5  sm:mx-auto sm:w-5/6  2xl:pb-5  2xl:pt-[20px]">
         <div className="container">
           <div className=" flex flex-wrap">
             <div className="flex flex-wrap justify-center items-center mx-auto   sm:px-4  sm:w-3/12">
@@ -68,7 +68,7 @@ export default function Footer () {
 
             <div className="w-full flex flex-wrap justify-center items-start   px-4 sm:w-1/2 lg:w-3/12">
               <div className="block justify-center 2xl:mb-16 xl:mb-1 w-full">
-                <h4 className="text-center sm:text-start mb-7 mt-6 text-lg xl:text-base 2xl:text-lg font-semibold text-dark dark:text-white">
+                <h4 className="text-center sm:text-start mb-7 mt-6 text-lg xl:text-base 2xl:text-lg font-semibold text-white">
                 Redes sociais
                 </h4>
                 <div className="mb-6 gap-2 flex justify-center sm:justify-start items-center">
@@ -97,13 +97,13 @@ const LinkGroup = ({ children, headerOne,headerTwo,headerThree,linkOne,linkTwo,l
     <>
       <div className="flex xl:mt-6  justify-center items-start w-full px-5 sm:w-1/2 lg:w-2/12">
         <div className="block gap-2 justify-center mx-auto items-center  w-full">
-          <a href="/"><h4 className="flex justify-center sm:justify-start  text-lg xl:text-sm 2xl:text-lg font-semibold text-dark dark:text-white">
+          <a href="/"><h4 className="flex justify-center sm:justify-start  text-lg xl:text-sm 2xl:text-lg font-semibold text-white">
             {headerOne}
           </h4>{linkOne}</a>
-          <a   href="/sobre"><h4 className="flex justify-center sm:justify-start  text-lg xl:text-sm 2xl:text-lg  font-semibold text-dark dark:text-white">
+          <a   href="/sobre"><h4 className="flex justify-center sm:justify-start  text-lg xl:text-sm 2xl:text-lg  font-semibold text-white">
             {headerTwo}
           </h4></a>
-          <a  href="/contato"><h4 className="flex justify-center sm:justify-start   text-lg xl:text-sm 2xl:text-lg font-semibold text-dark dark:text-white">
+          <a  href="/contato"><h4 className="flex justify-center sm:justify-start   text-lg xl:text-sm 2xl:text-lg font-semibold text-white">
             {headerThree}
           </h4></a>
           <ul className="space-y-3">{children}</ul>

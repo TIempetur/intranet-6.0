@@ -100,7 +100,7 @@ export default function Contato () {
         />
       </div>
 
-      <section className='bg-blue-700 shadow-2xl rounded-md   shadow-stone-500/50 w-full xl:mt-2 sm:flex sm:justify-center sm:items-center dark:bg-dark py-10 pb-20 lg:py-[05px]'>
+      <section className='bg-blue-700 shadow-2xl rounded-md    shadow-stone-500/50 w-full xl:mt-2 sm:flex sm:justify-center sm:items-center dark:bg-dark py-10 mb-10 pb-20 lg:py-[05px]'>
         <div className='container '>
           <div className='flex flex-wrap '>
             <div className='w-full '>
