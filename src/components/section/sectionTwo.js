@@ -145,22 +145,22 @@ const AccordionItem = ({ header, text,linkOne,linkTwo,linkThree,linkFour,linkFiv
           {text}
         </p>
         <div className="flex  items-center">
-        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="https://www.youtube.com">{linkOne}</a>
+        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="#">{linkOne}</a>
         </div>
         <div className="flex items-center">
-        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="https://www.facebook.com">{linkTwo}</a>
+        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="#">{linkTwo}</a>
         </div>
         <div className="flex justify-start items-center">
-        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="https://www.github.com/rodrigomedeiros99">{linkThree}</a>
+        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="#">{linkThree}</a>
         </div>
         <div className="flex justify-start items-center">
-        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="https://www.globo.com">{linkFour}</a>
+        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="#">{linkFour}</a>
         </div>
         <div className="flex justify-start items-center">
-        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="https://www.github.com">{linkFive}</a>
+        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="#">{linkFive}</a>
         </div>
         <div className="flex justify-start items-center">
-        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="https://www.instagram.com">{linkSix}</a>
+        <a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-lg  flex font-bold  items-center " href="http://192.168.9.16/midia-intranet/prolazer/lotacao.pdf">{linkSix}</a>
         </div>
         
       </div>
@@ -221,8 +221,8 @@ const AccordingMonth = ({ header, text,jan, fev,march,april,may,jun,jul,ago,set,
           {text}
         </p>
         <ul>
-          <li><a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-sm  flex font-bold  items-center " href="https://www.youtube.com">{jan}</a></li>
-          
+          <li><a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-sm  flex font-bold  items-center " href="http://192.168.9.16/midia-intranet/prolazer/nomeacao/jan.pdf">{jan}</a></li>
+           <li><a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-sm  flex font-bold  items-center " href="http://192.168.9.16/midia-intranet/prolazer/nomeacao/fev.pdf">{fev}</a></li>
         </ul>
           
       </div>
@@ -284,8 +284,8 @@ const AccordingMonthTwo = ({ header, text,jan, fev,march,april,may,jun,jul,ago,s
           {text}
         </p>
         <ul>
-          <li><a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-sm  flex font-bold  items-center " href="https://www.youtube.com/spoilboytv">{jan}</a></li>
-          
+          <li><a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-sm  flex font-bold  items-center " href="http://192.168.9.16/midia-intranet/prolazer/exoneracao/jan.pdf">{jan}</a></li>
+           <li><a target="_blank" className="text-black underline text-sm xl:text-sm 2xl:text-sm  flex font-bold  items-center " href="http://192.168.9.16/midia-intranet/prolazer/exoneracao/fev.pdf">{fev}</a></li>
         </ul>
           
       </div>

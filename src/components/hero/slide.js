@@ -7,19 +7,19 @@ function Slide() {
   const slides = [
     { 
       
-      url:  '/midia/dia-do-turismologo.jpg',
+      url:  'http://192.168.9.16/midia-intranet/informatica/slideshow/slide1.jpg',
     },
     {
-      url: '/midia/wallpaper-01.jpg',
+      url: 'http://192.168.9.16/midia-intranet/informatica/slideshow/slide2.jpg',
     },
     {
-      url: '/midia/wallpaper-02.jpg',
+      url: 'http://192.168.9.16/midia-intranet/informatica/slideshow/slide3.jpg',
     },
     {
-      url: '/midia/show_img.jpg',
+      url: 'http://192.168.9.16/midia-intranet/informatica/slideshow/slide4.jpg',
     },
     {
-      url: '/midia/wallpaper-04.jpg',
+      url: 'http://192.168.9.16/midia-intranet/informatica/slideshow/slide5.jpg',
     },
   ];
 
