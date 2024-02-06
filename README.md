@@ -17,7 +17,7 @@ E por fim as dependências são instaladas usando o ```npm install``` e a aplica
 
 ---
 
-No canto superior direito da página, estão localizados os menus principais, [Início](#inicio), [Sobre](#sobre), [Contato](#contato) e [Galeria](#galeria).
+No canto superior direito da página, estão localizados os menus principais, Início, Sobre, Contato, e Galeria.
 
 #### Início
 
