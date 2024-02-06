@@ -19,19 +19,19 @@ E por fim as dependências são instaladas usando o ```npm install``` e a aplica
 
 No canto superior direito da página, estão localizados os menus principais, [Início](#inicio), [Sobre](#sobre), [Contato](#contato) e [Galeria](#galeria).
 
-#### Início {#inicio}
+#### Início
 
 Retorna para a página inicial.
 
-#### Sobre {#sobre}
+#### Sobre
 
 Mostra algumas informações sobre a empresa.
 
-#### Contato {#contato}
+#### Contato
 
 Abre uma agenda telefônica com todos os ramais da empresa.
 
-#### Galeria {#galeria}
+#### Galeria
 
 Página ainda em desenvolvimento de uma galeria com fotos de eventos.
 
