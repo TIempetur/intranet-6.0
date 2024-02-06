@@ -13,7 +13,7 @@ E por fim as dependências são instaladas usando o ```npm install``` e a aplica
 
 ## Layout da página
 
-[![ ](./public/midia/print.jpg) ]
+![ ](./public/midia/print.jpg)
 
 ---
 
